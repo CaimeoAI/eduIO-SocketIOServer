@@ -15,7 +15,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: "https://eduio-socketioserver.onrender.com",
+    origin: "https://eduio-frontend.onrender.com",
     methods: ["GET", "POST"],
   },
 });
